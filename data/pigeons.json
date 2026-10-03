@@ -52,5 +52,88 @@
       "transfers": [],
       "races": []
     }
-  ]
+  ],
+  "meta": {
+    "migrated": true,
+    "nextReceiptNo": 4
+  },
+  "events": [
+    {
+      "requestId": "legacy:intake:CHN-2022-188",
+      "type": "IntakeConfirmed",
+      "receiptNo": "R-001",
+      "ringNo": "CHN-2022-188",
+      "at": "2026-01-01T00:00:00.000Z",
+      "owner": "育种棚",
+      "fatherRing": "",
+      "motherRing": "",
+      "color": "雨点",
+      "loft": "种鸽棚",
+      "vaccines": [],
+      "firstRace": null
+    },
+    {
+      "requestId": "legacy:intake:CHN-2023-512",
+      "type": "IntakeConfirmed",
+      "receiptNo": "R-002",
+      "ringNo": "CHN-2023-512",
+      "at": "2026-01-01T00:00:00.000Z",
+      "owner": "育种棚",
+      "fatherRing": "",
+      "motherRing": "",
+      "color": "红轮",
+      "loft": "种鸽棚",
+      "vaccines": [],
+      "firstRace": null
+    },
+    {
+      "requestId": "legacy:intake:CHN-2026-001",
+      "type": "IntakeConfirmed",
+      "receiptNo": "R-003",
+      "ringNo": "CHN-2026-001",
+      "at": "2026-01-01T00:00:00.000Z",
+      "owner": "北岸棚",
+      "fatherRing": "CHN-2022-188",
+      "motherRing": "CHN-2023-512",
+      "color": "灰",
+      "loft": "北岸A棚",
+      "vaccines": [],
+      "firstRace": null
+    },
+    {
+      "requestId": "legacy:vaccine:CHN-2026-001:0",
+      "type": "VaccineRecorded",
+      "ringNo": "CHN-2026-001",
+      "at": "2026-01-01T00:00:00.000Z",
+      "vaccine": {
+        "date": "2026-04-01",
+        "name": "新城疫"
+      }
+    },
+    {
+      "requestId": "legacy:race:CHN-2026-001:0",
+      "type": "RaceRecorded",
+      "ringNo": "CHN-2026-001",
+      "at": "2026-01-01T00:00:00.000Z",
+      "race": {
+        "date": "2026-06-01",
+        "event": "120公里训放",
+        "distance": 120,
+        "returnTime": "10:42",
+        "rank": 18
+      }
+    },
+    {
+      "requestId": "legacy:transfer:CHN-2026-001:0",
+      "type": "TransferRecorded",
+      "ringNo": "CHN-2026-001",
+      "at": "2026-01-01T00:00:00.000Z",
+      "transfer": {
+        "date": "2026-04-15",
+        "from": "育种棚",
+        "to": "北岸棚"
+      }
+    }
+  ],
+  "responses": {}
 }
